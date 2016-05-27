@@ -10,10 +10,19 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	use git status to make sure only files included are part of logical
+	change.  use get diff --staged to ensure the changes in those files
+	meet the same criteria.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	hotfix, invasive feature under development, keep these changes
+	from going to main / shipping
+
 How do the diagrams help you visualize the branch structure?
+
+	You can ress the relationship of all branches at one time
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
